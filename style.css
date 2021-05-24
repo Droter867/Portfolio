@@ -24,7 +24,7 @@
   }
 
 .main-background {
-    background-color: #A679F5;
+    background-color: #EBEBEB;
   
 }
 
@@ -41,7 +41,7 @@
 }
 
 .header-button{
-  background-color: #8F5CE9;
+  background-color: #EBEBEB;
   width: 12rem;
   height: 2.5rem;
   border-radius: 0.4rem;
@@ -58,13 +58,14 @@
 }
 
 .header-button:hover {
-  border-style: solid;
-  border-width: 0.20rem;
+margin-top: 1.2rem;
+ height: 3rem;
 
 }
 
 .header-button:hover p {
-  margin-top: -3px;
+  font-size: 1.1rem;
+  padding-top: 12px;
 }
 
 .footer{
@@ -119,9 +120,11 @@
   background-color: #FF4500;
   width: 18rem;
   height: 18rem;
+  border-radius: 0.4rem;
   margin-top: 1.5rem;
   margin-left: 4rem;
   overflow: hidden;
+  box-shadow: 10px 5px 5px 5px #D5D4D4;
   
 }
 
@@ -147,8 +150,9 @@
   background-color: white;
   width: 32rem;
   height: 20rem;
-  border-radius: 1.4rem;
+  border-radius: 1.1rem;
   margin-left: 2rem;
+  box-shadow: 10px 5px 5px 5px #D5D4D4;
 }
 
 .umu-frame{
@@ -158,15 +162,17 @@
   margin-left: 18.5rem;
   border-radius: 1.5rem;
   margin-top: -1.5rem;
+  
 }
 
 .education-text{
   background-color: white;
   width: 40rem;
   height: 20rem;
-  border-radius: 1.4rem;
+  border-radius: 1.1rem;
   margin-left: 40rem;
   margin-top: -20rem;
+  box-shadow: 10px 5px 5px 5px #D5D4D4;
 }
 
 .educationbox{
@@ -176,7 +182,7 @@
   margin-left: 18.5rem;
   margin-top: 7rem;
   margin-bottom: 5rem;
-  background: linear-gradient(to right, #F6A453 75%,#CF6943 100%)
+  background: linear-gradient(to right, #F6A453 75%,#CF6943 100%);
 }
 
 .test{
@@ -236,7 +242,7 @@
 }
 
 .submitbutton {
-  background-color: #8F5CE9;
+  background-color: #EBEBEB;
   border-style: none; 
   border-radius: 0.5rem; 
   width: 12rem; 
@@ -258,6 +264,7 @@
   margin-left: 57.3rem;
   margin-top: -45.8rem;
   border-radius: 0.5rem;
+  box-shadow: 10px 5px 5px 5px #D5D4D4;
 }
 
 .submitbutton p{
