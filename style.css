@@ -251,10 +251,20 @@ margin-top: 1.2rem;
   margin-top:6.2rem;
 }
 
+.submitbutton p {
+  text-align: center;
+  font-size: 20px;
+  padding-top: 0.65rem;
+}
+
 .submitbutton:hover{
   border-style: solid;
   border-width: 0.2rem;
   border-color: black;
+}
+
+.submitbutton:hover p{
+  padding-top: 0.45rem;
 }
 
 .project-description{
@@ -265,10 +275,6 @@ margin-top: 1.2rem;
   margin-top: -45.8rem;
   border-radius: 0.5rem;
   box-shadow: 10px 5px 5px 5px #D5D4D4;
-}
-
-.submitbutton p{
-  font-size: 150px;
 }
 
 .go-back-button{
